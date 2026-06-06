@@ -17,3 +17,14 @@ O Dínamo SP é um site de página única (SPA simples) com:
 ---
 
 ## 📁 Estrutura
+logo.png
+style.css
+script.js
+index.html
+---
+
+## 🚀 Como usar
+
+1. Baixe ou clone o projeto:
+```bash
+git clone https://github.com/seuusuario/dinamo-sp.git
