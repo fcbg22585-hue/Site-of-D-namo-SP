@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0f0f0f;
+  color: white;
+}
+
+/* HEADER */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background: #111;
+  position: sticky;
+  top: 0;
+}
+
+.logo {
+  font-weight: bold;
+  color: #00ff88;
+}
+
+nav a {
+  color: white;
+  margin-left: 15px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #00ff88;
+}
+
+/* HERO */
+.hero {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(45deg, #00ff88, #0066ff);
+  text-align: center;
+}
+
+.hero button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  background: black;
+  color: white;
+  border-radius: 10px;
+}
+
+/* SEÇÕES */
+section {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+/* ELENCO */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.card {
+  background: #1c1c1c;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* JOGOS */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  padding: 10px;
+  background: #1c1c1c;
+  margin: 10px auto;
+  width: 80%;
+  border-radius: 10px;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #111;
+}
